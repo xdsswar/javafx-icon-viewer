@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.ScrollPane?>
+<?import javafx.scene.control.Tab?>
+<?import javafx.scene.control.TabPane?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.FlowPane?>
+
+<AnchorPane prefHeight="680.0" prefWidth="1200.0" stylesheets="@style.css" xmlns="http://javafx.com/javafx/" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <TabPane fx:id="tabPane" prefHeight="200.0" prefWidth="200.0" tabClosingPolicy="UNAVAILABLE" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+        <tabs>
+          <Tab text="Awesome">
+            <content>
+              <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0">
+                     <children>
+                        <ScrollPane fx:id="fontAwesomeScrollPane" layoutX="373.0" layoutY="184.0" prefHeight="200.0" prefWidth="200.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="50.0">
+                           <content>
+                              <FlowPane fx:id="fontAwesomeFlowPane" prefHeight="609.0" prefWidth="991.0" />
+                           </content>
+                        </ScrollPane>
+                        <TextField fx:id="fontAwesomeSearch" layoutX="27.0" layoutY="2.0" prefHeight="25.0" prefWidth="230.0" AnchorPane.leftAnchor="10.0" AnchorPane.topAnchor="10.0" />
+                     </children>
+                  </AnchorPane>
+            </content>
+          </Tab>
+            <Tab text="Emoji">
+               <content>
+                  <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0">
+                     <children>
+                        <ScrollPane fx:id="emojiScrollPane" layoutX="373.0" layoutY="184.0" prefHeight="200.0" prefWidth="200.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="50.0">
+                           <content>
+                              <FlowPane fx:id="emojiFlowPane" prefHeight="609.0" prefWidth="991.0" />
+                           </content>
+                        </ScrollPane>
+                        <TextField fx:id="emojiSearch" layoutX="27.0" layoutY="2.0" prefHeight="25.0" prefWidth="230.0" AnchorPane.leftAnchor="10.0" AnchorPane.topAnchor="10.0" />
+                     </children>
+                  </AnchorPane>
+               </content>
+            </Tab>
+            <Tab text="IC 525">
+               <content>
+                  <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0">
+                     <children>
+                        <ScrollPane fx:id="ic525ScrollPane" layoutX="373.0" layoutY="184.0" prefHeight="200.0" prefWidth="200.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="50.0">
+                           <content>
+                              <FlowPane fx:id="ic525FlowPane" prefHeight="609.0" prefWidth="991.0" />
+                           </content>
+                        </ScrollPane>
+                        <TextField fx:id="ic525Search" layoutX="27.0" layoutY="2.0" prefHeight="25.0" prefWidth="230.0" AnchorPane.leftAnchor="10.0" AnchorPane.topAnchor="10.0" />
+                     </children>
+                  </AnchorPane>
+               </content>
+            </Tab>
+            <Tab text="Material">
+               <content>
+                  <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0">
+                     <children>
+                        <ScrollPane fx:id="materialScrollPane" layoutX="373.0" layoutY="184.0" prefHeight="200.0" prefWidth="200.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="50.0">
+                           <content>
+                              <FlowPane fx:id="materialFlowPane" prefHeight="609.0" prefWidth="991.0" />
+                           </content>
+                        </ScrollPane>
+                        <TextField fx:id="materialSearch" layoutX="27.0" layoutY="2.0" prefHeight="25.0" prefWidth="230.0" AnchorPane.leftAnchor="10.0" AnchorPane.topAnchor="10.0" />
+                     </children>
+                  </AnchorPane>
+               </content>
+            </Tab>
+            <Tab text="Material Design">
+               <content>
+                  <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0">
+                     <children>
+                        <ScrollPane fx:id="designScrollPane" layoutX="373.0" layoutY="184.0" prefHeight="200.0" prefWidth="200.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="50.0">
+                           <content>
+                              <FlowPane fx:id="designFlowPane" prefHeight="609.0" prefWidth="991.0" />
+                           </content>
+                        </ScrollPane>
+                        <TextField fx:id="designSearch" layoutX="27.0" layoutY="2.0" prefHeight="25.0" prefWidth="230.0" AnchorPane.leftAnchor="10.0" AnchorPane.topAnchor="10.0" />
+                     </children>
+                  </AnchorPane>
+               </content>
+            </Tab>
+            <Tab text="OctIcons">
+               <content>
+                  <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0">
+                     <children>
+                        <ScrollPane fx:id="octiconScrollPane" layoutX="373.0" layoutY="184.0" prefHeight="200.0" prefWidth="200.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="50.0">
+                           <content>
+                              <FlowPane fx:id="octiconFlowPane" prefHeight="609.0" prefWidth="991.0" />
+                           </content>
+                        </ScrollPane>
+                        <TextField fx:id="octiconSearch" layoutX="27.0" layoutY="2.0" prefHeight="25.0" prefWidth="230.0" AnchorPane.leftAnchor="10.0" AnchorPane.topAnchor="10.0" />
+                     </children>
+                  </AnchorPane>
+               </content>
+            </Tab>
+            <Tab text="Weather">
+               <content>
+                  <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0">
+                     <children>
+                        <ScrollPane fx:id="weatherScrollPane" layoutX="373.0" layoutY="184.0" prefHeight="200.0" prefWidth="200.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="50.0">
+                           <content>
+                              <FlowPane fx:id="weatherFlowPane" prefHeight="609.0" prefWidth="991.0" />
+                           </content>
+                        </ScrollPane>
+                        <TextField fx:id="weatherSearch" layoutX="27.0" layoutY="2.0" prefHeight="25.0" prefWidth="230.0" AnchorPane.leftAnchor="10.0" AnchorPane.topAnchor="10.0" />
+                     </children>
+                  </AnchorPane>
+               </content>
+            </Tab>
+        </tabs>
+      </TabPane>
+   </children>
+</AnchorPane>

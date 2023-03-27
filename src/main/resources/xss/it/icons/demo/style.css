@@ -1,0 +1,160 @@
+/**
+===================================SCROLL BARS=======================================
+ */
+
+.scroll-bar{
+    -fx-background-color: transparent;
+}
+
+.scroll-bar:horizontal .track,
+.scroll-bar:vertical .track{
+    -fx-background-color:transparent;
+    -fx-border-color: #ECF0F1;
+    -fx-background-radius: 5;
+    -fx-border-radius:5;
+}
+
+/* The increment and decrement button CSS class of scrollbar */
+.scroll-bar:horizontal .increment-button ,
+.scroll-bar:horizontal .decrement-button {
+    -fx-background-color:transparent;
+    -fx-background-radius: 0;
+    -fx-padding:0 0 0 0 ;
+}
+.scroll-bar:vertical .increment-button ,
+.scroll-bar:vertical .decrement-button {
+    -fx-background-color:transparent;
+    -fx-background-radius: 0;
+    -fx-padding:0 0 0 10;
+}
+
+.scroll-bar .increment-arrow,
+.scroll-bar .decrement-arrow{
+    -fx-shape: "";
+    -fx-padding:0;
+}
+
+.scroll-bar:horizontal .thumb,
+.scroll-bar:vertical .thumb {
+    -fx-background-color: #778a9d;
+    -fx-background-insets: 2, 0, 0;
+    -fx-background-radius: 2em;
+}
+
+.scroll-bar:horizontal .thumb:hover,
+.scroll-bar:vertical .thumb:hover {
+    -fx-cursor: hand;
+}
+
+.scroll-pane{
+    /*-fx-background-color: transparent;
+    -fx-control-inner-background: transparent;*/
+    -fx-background-color: transparent;
+    -fx-background-insets: 0, 1;
+    -fx-padding: 1.0;
+}
+.scroll-pane .viewport{
+    -fx-background-color: transparent;
+    -fx-control-inner-background: transparent;
+}
+
+.viewport{
+    -fx-background-color: transparent;
+    -fx-border-width: 0;
+    -fx-border-color: transparent;
+}
+
+
+
+
+.icon-button{
+    -fx-background-color: transparent;
+    -fx-min-width: 220;
+    -fx-min-height: 90;
+    -fx-max-width: 220;
+    -fx-max-height: 90;
+    -fx-border-width: 1;
+    -fx-border-color: #2C3E50;
+    -fx-border-radius: 5;
+    -fx-background-radius: 5;
+    -fx-text-fill: #2C3E50;
+    -fx-cursor: hand;
+}
+
+.icon-button:armed{
+    -fx-border-color: #2980B9;
+    -fx-text-fill: #2980B9;
+    -fx-scale-x: 1.1;
+    -fx-scale-y: 1.1;
+}
+
+.icon-button:armed .icon{
+    -fx-fill: #2980B9;
+}
+
+.icon-button:focused{
+    -fx-border-color: #16A085;
+    -fx-text-fill: #16A085;
+}
+
+.icon-button:focused .icon{
+    -fx-fill: #16A085;
+}
+
+.icon{
+   -fx-fill: #34495E;
+}
+
+.text-field{
+    -fx-min-height: 29;
+    -fx-border-color: #BDC3C7;
+    -fx-background-insets: 0;
+    -fx-border-radius: 3;
+    -fx-background-radius: 3;
+    -fx-background-color: #ffffff;
+    -fx-text-fill: #34495E;
+    -fx-font-size: 13;
+}
+
+.text-field:focused{
+    -fx-border-color: #16A085;
+}
+
+
+
+.tab-header-area .tab-header-background {
+    -fx-background-color: #3498DB;
+}
+.tab-pane .tab:selected {
+    -fx-background-color: #2980B9;
+    -fx-background-insets: 0 0 0 0;
+    -fx-background-radius: 0 0 0 0;
+}
+
+.tab{
+    -fx-cursor: hand;
+}
+
+.tab .tab-label {
+    -fx-alignment: CENTER;
+    -fx-text-fill: white;
+    -fx-font-weight: bold;
+    -fx-padding: 0 10 0 10;
+}
+.tab-pane:top *.tab-header-area {
+    -fx-padding: 0 0 0 30;
+}
+.tab-pane {
+    -fx-background-color: transparent;
+    -fx-tab-min-width: 120;
+    -fx-tab-min-height: 30;
+    -fx-tab-max-height: 30;
+}
+.tab-pane .tab {
+    -fx-background-color: transparent;
+}
+.tab-pane:focused .tab-header-area .headers-region .tab:selected .focus-indicator {
+    -fx-border-width: 0;
+    -fx-border-insets: 0 0 0 0;
+    -fx-border-radius: 0;
+}
